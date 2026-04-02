@@ -165,6 +165,17 @@ li {
   box-shadow: 0 10px 15px -3px rgba(37, 211, 102, 0.4);
 }
 
+.btn-facebook {
+  background-color: #1877f2;
+  color: white;
+}
+
+.btn-facebook:hover {
+  background-color: #166fe5;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(24, 119, 242, 0.4);
+}
+
 .btn-lg {
   padding: 1.15rem 2.5rem;
   font-size: 1rem;
