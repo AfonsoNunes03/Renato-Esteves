@@ -1,171 +1,215 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renato Esteves - Trabalhos Agrícolas | Limpeza de Terrenos</title>
-    <meta name="description" content="Limpeza de terrenos rápida e profissional com roçadora para pequenos e médios espaços. Contacto: 916529841.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@500;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Limpeza de Terrenos em Tomar | Renato Esteves - Trabalhos Agrícolas</title>
+  <meta name="description" content="Especialista em limpeza de terrenos com roçadora em Tomar e arredores. Serviço rápido, profissional e económico. Ligue já 916529841!">
+  <meta name="keywords" content="limpeza de terrenos Tomar, trabalhos agrícolas Tomar, roçadora Tomar, manutenção terrenos Portugal, Renato Esteves">
+  
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Renato Esteves - Limpeza de Terrenos Profissional em Tomar">
+  <meta property="og:description" content="Cuidamos do seu terreno com rigor e rapidez. Especialistas em roçadora e limpeza de mato.">
+  <meta property="og:image" content="https://renatoesteves.pt/og-image.jpg"> <!-- Exemplo -->
+  <meta property="og:url" content="https://renatoesteves.pt">
+
+  <!-- Icons & Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <div class="logo">
-                <span class="highlight">Renato</span> Esteves
-            </div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contacto" class="btn btn-secondary">Contactar</a></li>
-            </ul>
-        </nav>
+  <div id="app">
+    <!-- Header -->
+    <header class="main-header animate__animated animate__fadeInDown">
+      <nav class="container">
+        <div class="logo">
+          <i class="fas fa-seedling text-primary"></i> <span class="highlight">Renato</span> Esteves
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#features">Vantagens</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#contact" class="btn btn-secondary">Orçamento</a></li>
+        </ul>
+        <button class="hamburger-toggle" aria-label="Abrir Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="inicio" class="hero">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <span class="badge">Trabalhos Agrícolas Profissionais</span>
-                    <h1>Limpeza de Terrenos <span class="text-accent">Rápida</span> e Profissional</h1>
-                    <p>Especialista em limpeza de pequenos e médios terrenos com roçadora. Trabalho rigoroso e eficiente.</p>
-                    <div class="hero-actions">
-                        <a href="tel:916529841" class="btn btn-primary">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                            Ligar Agora
-                        </a>
-                        <a href="https://wa.me/351916529841" class="btn btn-outline" target="_blank">
-                            WhatsApp
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="assets/img/hero.png" alt="Trabalhador com roçadora cuidando de terreno agrícola" loading="lazy">
-                </div>
+      <!-- Hero -->
+      <section id="home" class="hero-section text-center">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="badge animate__animated animate__fadeIn">📍 Atendimento em Tomar e Região</span>
+            <h1 class="animate__animated animate__fadeInUp">Limpeza de Terrenos <span class="text-accent">Rápida</span> & Profissional</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Serviços agrícolas com roçadora para pequenos e médios terrenos. Deixe a sua propriedade no estado que ela merece.</p>
+            <div class="hero-btns animate__animated animate__fadeInUp animate__delay-2s">
+              <a href="tel:916529841" class="btn btn-primary btn-lg">
+                <i class="fas fa-phone-alt"></i> Ligar Agora
+              </a>
+              <a href="https://wa.me/351916529841" class="btn btn-whatsapp btn-lg" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Benefits Section -->
-        <section class="benefits bg-light">
-            <div class="container grid-benefits">
-                <div class="benefit-card">
-                    <div class="icon-box">⚡</div>
-                    <h3>Rápido e Eficiente</h3>
-                    <p>Máximo rendimento no terreno para que não perca tempo.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="icon-box">💰</div>
-                    <h3>Preços Acessíveis</h3>
-                    <p>Qualidade profissional com um custo justo para o seu bolso.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="icon-box">🏡</div>
-                    <h3>Ideal para Terrenos Pequenos</h3>
-                    <p>Especializado no cuidado de quintais e terrenos de média dimensão.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="icon-box">📍</div>
-                    <h3>Atendimento Local</h3>
-                    <p>Rapidez na deslocação e conhecimento da realidade local.</p>
-                </div>
+      <!-- Benefits -->
+      <section id="features" class="benefits-section py-20">
+        <div class="container">
+          <div class="grid grid-cols-4 gap-10">
+            <div class="benefit-card animate__animated animate__fadeInUp">
+              <div class="icon-circle">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <h3>Rápido e Eficiente</h3>
+              <p>Otimizamos cada minuto para garantir que o seu terreno fica limpo em tempo recorde.</p>
             </div>
-        </section>
+            <div class="benefit-card animate__animated animate__fadeInUp animate__delay-1s">
+              <div class="icon-circle">
+                <i class="fas fa-euro-sign"></i>
+              </div>
+              <h3>Preços Transparentes</h3>
+              <p>Qualidade profissional com orçamentos ajustados à realidade local.</p>
+            </div>
+            <div class="benefit-card animate__animated animate__fadeInUp animate__delay-2s">
+              <div class="icon-circle">
+                <i class="fas fa-home"></i>
+              </div>
+              <h3>Pequenas Propriedades</h3>
+              <p>Somos especialistas no cuidado de vivendas, quintais e lotes urbanos.</p>
+            </div>
+            <div class="benefit-card animate__animated animate__fadeInUp animate__delay-3s">
+              <div class="icon-circle">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <h3>Experiência de Tomar</h3>
+              <p>Atendimento próximo, conhecemos cada canto da nossa região Templária.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- About Section -->
-        <section id="sobre" class="about">
-            <div class="container grid-about">
-                <div class="about-content">
-                    <span class="label">Experiência e Dedicação</span>
-                    <h2>Renato Esteves</h2>
-                    <p>Sou um profissional dedicado ao cuidado da terra. Com anos de experiência no setor agrícola, foco-me em oferecer um serviço de limpeza de terrenos de alta qualidade, utilizando ferramentas profissionais para garantir um acabamento impecável.</p>
-                    <p>O meu objetivo é ajudar os proprietários locais a manterem os seus terrenos seguros, limpos e organizados durante todo o ano.</p>
-                </div>
+      <!-- About -->
+      <section class="about-section py-20 bg-light">
+        <div class="container grid grid-2 items-center gap-15">
+          <div class="about-img animate__animated animate__fadeInLeft">
+             <img src="/assets/img/hero.png" alt="Renato Esteves em trabalho" class="img-fluid rounded-shadow">
+          </div>
+          <div class="about-text animate__animated animate__fadeInRight">
+            <span class="label">Quem Somos</span>
+            <h2>Especialista Local Dedicado</h2>
+            <p>Com anos de prática nos campos da região de Tomar, Renato Esteves foca-se na excelência dos pequenos trabalhos agrícolas.</p>
+            <p>Utilizamos equipamento profissional para garantir não só uma limpeza visual, mas a redução efetiva de mato e riscos de incêndio.</p>
+            <div class="stats grid grid-2 mt-10">
+              <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Satisfação</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">24h</span>
+                <span class="stat-label">Resposta</span>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Services Section -->
-        <section id="servicos" class="services bg-dark">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2>Serviços Disponíveis</h2>
-                    <p>Tudo o que o seu terreno precisa para estar em perfeitas condições.</p>
-                </div>
-                <div class="grid-services">
-                    <div class="service-card">
-                        <h3>Limpeza de Mato</h3>
-                        <p>Eliminação de vegetação densa, arbustos e matagal acumulado.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Manutenção de Terrenos</h3>
-                        <p>Plano regular de corte para evitar o crescimento excessivo de ervas.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Corte com Roçadora</h3>
-                        <p>Corte preciso em zonas de difícil acesso ou com árvores.</p>
-                    </div>
-                </div>
+      <!-- Services -->
+      <section id="services" class="services-section py-20 bg-dark text-white">
+        <div class="container text-center">
+          <div class="section-title">
+            <h2>Nossos Serviços</h2>
+            <div class="underline mx-auto"></div>
+          </div>
+          <div class="grid grid-cols-3 gap-8 mt-15">
+            <div class="service-box">
+              <i class="fas fa-leaf fa-3x mb-6"></i>
+              <h3>Limpeza de Mato</h3>
+              <p>Remoção completa de vegetação rasteira e arbustos densos.</p>
             </div>
-        </section>
+            <div class="service-box">
+              <i class="fas fa-tools fa-3x mb-6"></i>
+              <h3>Manutenção Regular</h3>
+              <p>Cortes programados para manter o aspeto cuidado o ano inteiro.</p>
+            </div>
+            <div class="service-box">
+              <i class="fas fa-cut fa-3x mb-6"></i>
+              <h3>Corte de Precisão</h3>
+              <p>Utilização de roçadora em zonas inclinadas ou com árvores frutíferas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Final CTA/Contact -->
-        <section id="contacto" class="cta-section">
-            <div class="container cta-box">
-                <div class="cta-inner">
-                    <h2>Garanta já a limpeza do seu terreno.</h2>
-                    <p>Peça um orçamento gratuito ou ligue diretamente.</p>
-                    <div class="contacto-info">
-                        <span class="phone-number">916 529 841</span>
-                    </div>
-                    <div class="cta-buttons">
-                        <a href="tel:916529841" class="btn btn-secondary btn-large">Ligar Agora</a>
-                        <a href="https://wa.me/351916529841" class="btn btn-outline-white" target="_blank">Falar no WhatsApp</a>
-                    </div>
-                </div>
+      <!-- Final CTA -->
+      <section id="contact" class="final-cta py-30">
+        <div class="container container-sm text-center">
+          <div class="cta-card animate__animated animate__pulse animate__infinite animate__slow">
+            <h2>Pronto para limpar o seu terreno em <strong>Tomar</strong>?</h2>
+            <p>Fale diretamente com Renato Esteves e peça o seu orçamento gratuito.</p>
+            <div class="phone-display animate__delay-1s">
+              916 529 841
             </div>
-        </section>
+            <div class="cta-actions mt-10">
+              <a href="tel:916529841" class="btn btn-secondary btn-xl">
+                <i class="fas fa-phone"></i> Ligar Agora
+              </a>
+              <a href="https://wa.me/351916529841" class="btn btn-outline-white btn-xl" target="_blank">
+                <i class="fab fa-whatsapp"></i> Mandar WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="bg-darker">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <span class="highlight">Renato</span> Esteves
-                <p>Trabalhos Agrícolas Locais</p>
+    <footer class="footer py-20 bg-darker text-white">
+      <div class="container">
+        <div class="footer-grid grid grid-cols-3 gap-10">
+          <div class="footer-brand">
+            <div class="logo mb-4">
+              <i class="fas fa-seedling text-primary"></i> <span class="highlight">Renato</span> Esteves
             </div>
-            <div class="footer-contact">
-                <p>Telefone: 916 529 841</p>
+            <p class="text-muted text-sm">Especialista em trabalhos agrícolas em Tomar. Qualidade e compromisso com o cliente local.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h4 class="mb-4">Zonas de Ação</h4>
+            <ul class="text-muted text-sm">
+              <li><i class="fas fa-map-marker-alt text-accent mr-2"></i> Tomar (Cidade)</li>
+              <li><i class="fas fa-chevron-right text-accent mr-2"></i> Arredores de Tomar</li>
+              <li><i class="fas fa-chevron-right text-accent mr-2"></i> Pedreira e Madalena</li>
+            </ul>
+          </div>
+          
+          <div class="footer-contact-info">
+            <h4 class="mb-4">Contactos Diretos</h4>
+            <div class="footer-tel mb-4">
+              <a href="tel:916529841" class="btn btn-primary btn-sm">
+                <i class="fas fa-phone-alt"></i> 916 529 841
+              </a>
             </div>
-            <div class="footer-copy">
-                &copy; 2026 Renato Esteves. Todos os direitos reservados. <br> 
-                Website feito por <strong>HARTEG</strong>
+            <div class="footer-socials flex gap-4 mt-4">
+              <a href="https://www.facebook.com/renatoandre.esteves.9" class="text-white hover:text-accent" target="_blank" aria-label="Facebook"><i class="fab fa-facebook fa-lg"></i></a>
             </div>
+          </div>
         </div>
+        
+        <div class="footer-bottom mt-15 pt-10 text-center border-top">
+          <p class="text-sm opacity-50">&copy; 2026 Renato Esteves - Trabalhos Agrícolas. Todos os direitos reservados.</p>
+          <p class="site-credit mt-2">Design by <strong>HARTEG</strong></p>
+        </div>
+      </div>
     </footer>
-    <script>
-        // Simple mobile menu toggle
-        const header = document.querySelector('header');
-        const nav = document.querySelector('nav');
-        const navLinks = document.querySelector('.nav-links');
-        
-        // Add hamburger button to nav for mobile
-        const hamburger = document.createElement('button');
-        hamburger.className = 'hamburger';
-        hamburger.innerHTML = '<span></span><span></span><span></span>';
-        nav.appendChild(hamburger);
-        
-        hamburger.addEventListener('click', () => {
-            nav.classList.toggle('active');
-        });
-        
-        // Close menu when clicking link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                nav.classList.remove('active');
-            });
-        });
-    </script>
+  </div>
+  
+  <script type="module" src="/main.js"></script>
 </body>
 </html>
