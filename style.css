@@ -483,6 +483,19 @@ footer {
   .phone-display { font-size: 3.5rem; }
 }
 
+.footer-geo-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.footer-geo-list li {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .nav-menu { display: none; }
   .hamburger-toggle { display: block; }
@@ -492,4 +505,7 @@ footer {
   .cta-actions { flex-direction: column; }
   .btn-xl { width: 100%; justify-content: center; }
   .btn-lg { width: 100%; justify-content: center; }
+  .footer-geo-list {
+    grid-template-columns: 1fr;
+  }
 }
