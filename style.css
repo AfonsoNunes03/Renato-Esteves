@@ -79,7 +79,10 @@ li {
 .text-accent { color: var(--secondary); }
 .text-muted { color: rgba(255, 255, 255, 0.6) !important; }
 .flex { display: flex; }
+.flex-col { flex-direction: column; }
+.gap-3 { gap: 0.75rem; }
 .gap-4 { gap: 1rem; }
+.btn-block { width: 100%; justify-content: center; }
 .mr-2 { margin-right: 0.5rem; }
 .mb-4 { margin-bottom: 1rem; }
 .border-top { border-top: 1px solid rgba(255, 255, 255, 0.1); }
@@ -506,6 +509,16 @@ footer {
   font-size: 0.8rem;
   display: flex;
   align-items: center;
+}
+
+.geo-center {
+  grid-column: span 2;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: var(--white);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {
